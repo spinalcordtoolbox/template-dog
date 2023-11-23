@@ -3,7 +3,7 @@
 	"include_list": "sub-HarshmanDobby sub-JacobsenPetri sub-JamesMonk sub-TrainqueNewt sub-WalkerBo",
 	"data_type": "anat",
 	"contrast": "t2",
-	"suffix_image": "_T2",
+	"suffix_image": "_T2w",
 	"first_disc": "1",
 	"last_disc": "26"
 }
