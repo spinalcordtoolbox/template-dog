@@ -42,7 +42,7 @@ git clone https://github.com/neuropoly/template
 cd template
 ~~~
 > [!NOTE]  
-> Depencies like `Spinal Cord Toolbox`, `Scoop` installation have not been mentioned here, please go through the [template](https://github.com/neuropoly/template) repository for the setup.
+> Depencies like `Spinal Cord Toolbox`, `Scoop` installationw have not been mentioned here, please go through the [template](https://github.com/neuropoly/template) repository for the setup.
 
 ### 4. Running the `preprocessing` pipeline:
 Once the `template` repository is setup, you are ready to the preprocessing pipeline in order to get the different derivatives such as `straightened_spinalcord` and `template space` which will be used for generating the templates in the next steps. 
@@ -69,6 +69,12 @@ Copy derivatives from the template_dog_virginiatech dataset to scratch. You can 
 5.6. Make changes to the subjects.csv path in the generate_template.py script. It is expected that to find the subjects.csv file inside derivatives/template
 5.7. Make chnages to the path names in the subjects.csv
 ~~~
+
+Alternatively, you also have the option to run the template generation pipeline on your local machine (note; This takes significantly more time that DRAC)
+~~~
+python generate_template.py
+~~~
+
 
 ### 6. Template generation:
 > [!NOTE]  
