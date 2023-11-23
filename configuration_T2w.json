@@ -1,0 +1,9 @@
+{
+	"path_data": "<PATH_TO_DATA>/",
+	"include_list": "sub-HarshmanDobby sub-JacobsenPetri sub-JamesMonk sub-TrainqueNewt sub-WalkerBo",
+	"data_type": "anat",
+	"contrast": "t2",
+	"suffix_image": "_T2",
+	"first_disc": "1",
+	"last_disc": "26"
+}
