@@ -17,7 +17,11 @@ The raw dog data was first organised into the [BIDS](https://bids-specification.
 
 ![Screen Shot 2023-09-26 at 2 45 47 PM](https://github.com/spinalcordtoolbox/template-dog/assets/25586344/3f87b720-f1b8-498c-a80f-b641b79c33f8)
 
-## Reproduce the T1w and T2w templates:
+<details>
+<summary>Reproduce the T1w and T2w templates</summary>
+<br>
+
+Steps to reproduce the T1w and T2w templates
 
 ### 1. Clone this repository:
 ~~~
@@ -97,4 +101,4 @@ Inside the template folder, you are expected to find a `model_n_all` folder in w
 mnc2nii PATH_TO/avg.XXX.mnc PATH_TO/template_XXX.nii
 ~~~
 
-
+</details>
