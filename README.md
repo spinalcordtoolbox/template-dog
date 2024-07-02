@@ -42,7 +42,7 @@ git clone https://github.com/neuropoly/template
 cd template
 ~~~
 > [!NOTE]  
-> Depencies like `Spinal Cord Toolbox`, `Scoop` installationw have not been mentioned here, please go through the [template](https://github.com/neuropoly/template) repository for the setup.
+> Depencies like `Spinal Cord Toolbox`, `Scoop` installations have not been mentioned here, please go through the [template](https://github.com/neuropoly/template) repository for the setup.
 
 ### 4. Running the `preprocessing` pipeline:
 Once the `template` repository is setup, you are ready to the preprocessing pipeline in order to get the different derivatives such as `straightened_spinalcord` and `template space` which will be used for generating the templates in the next steps. 
