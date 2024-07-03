@@ -115,7 +115,7 @@ mnc2nii PATH_TO/avg.XXX.mnc PATH_TO/template_XXX.nii
 
 ### Steps to register a subject to the T2w dog template. 
 
-We picked `sub-HarshmanDobby` for this.
+We picked `sub-HarshmanDobby` as an example.
 
 #### Data
 
