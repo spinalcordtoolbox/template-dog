@@ -130,7 +130,7 @@ Command used : sct_deepseg_sc -i sub-HarshmanDobby_T2w.nii.gz -c t2 -o sub-Harsh
 Manual correction was done by Rohan Banerjee on the output from sct_deepseg_sc
 ```
 
-2. Protocol to get the disc labels
+2. Protocol to get the disc labels (manual labeling)
 ```
 sct_label_utils -i sub-HarshmanDobby_T2w.nii.gz -create-viewer 1:24 -o sub-HarshmanDobby_T2w_labels-disc.nii.gz
 ```
