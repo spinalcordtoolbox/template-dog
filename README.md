@@ -121,7 +121,7 @@ We picked `sub-HarshmanDobby` for this.
 
 **[with internal data access]** Required data is at the `data.neuro.polymtl.ca:datasets/template_dog_virginiatech` repository under the `rb/update_HB` branch
 
-**[with no internal data access]** Please download the below data, with only sub-HarshmanDobby and it's derivatives (contains no sensitive information)
+**[with no internal data access]** Please download the below data, with only sub-HarshmanDobby and its derivatives (contains no sensitive information)
 [reg_to_temp_bids.zip](https://github.com/user-attachments/files/16071719/reg_to_temp_bids.zip)
 
 1. Protocol to segment the spinal cord of the sub-HarshmanDobby
