@@ -136,7 +136,7 @@ Renaming: sub-HarshmanDobby_T2w_label-SC_seg_initial.nii.gz --> sub-HarshmanDobb
 sct_label_utils -i sub-HarshmanDobby_T2w.nii.gz -create-viewer 1:24 -o sub-HarshmanDobby_T2w_labels-disc.nii.gz
 ```
 
-The following steps were done for the registration to the template (change parameters accordingly):
+The following steps were done for the registration to the template:
 ```
 sct_register_to_template -i sub-HarshmanDobby_T2w.nii.gz -s sub-HarshmanDobby_T2w_label-SC_seg.nii.gz -ldisc sub-HarshmanDobby_T2w_labels-disc.nii.gz -t <PATH_TO_TEMPLATE_PARENT_FOLDER> -c t2 -s-template-id 2 -param step=1,type=seg,algo=centermassrot:step=2,type=im,algo=syn,metric=CC,iter=3 -ofolder HB_to_temp -qc qc_HB_to_temp
 ```
