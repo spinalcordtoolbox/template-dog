@@ -148,13 +148,14 @@ QC report
 <summary>anat2template overlayed on template</summary>
 <br>
 
-https://github.com/spinalcordtoolbox/template-dog/assets/25586344/f753a5b7-cf0b-4882-8137-1bf1072f3ea4
+![anat2template](https://github.com/spinalcordtoolbox/template-dog/assets/25586344/63c1ded7-8057-4953-bb0b-d4bed8ce2ade)
+
 </details>
 
 <details>
 <summary>template2anat overlayed on template</summary>
 <br>
 
-https://github.com/spinalcordtoolbox/template-dog/assets/25586344/11743718-fc78-4364-8d79-f4005b2f7399
+![template2anat](https://github.com/spinalcordtoolbox/template-dog/assets/25586344/7a980ab2-123b-4e29-8256-4aede4998ccc)
 
 </br>
