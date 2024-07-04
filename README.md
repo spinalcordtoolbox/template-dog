@@ -126,8 +126,9 @@ We picked `sub-HarshmanDobby` as an example.
 
 1. Protocol to segment the spinal cord of the sub-HarshmanDobby
 ```
-Command used : sct_deepseg_sc -i sub-HarshmanDobby_T2w.nii.gz -c t2 -o sub-HarshmanDobby_T2w_label-SC_seg.nii.gz
-Manual correction was done by Rohan Banerjee on the output from sct_deepseg_sc
+Command used : sct_deepseg_sc -i sub-HarshmanDobby_T2w.nii.gz -c t2 -o sub-HarshmanDobby_T2w_label-SC_seg_initial.nii.gz
+Manual correction was done by Rohan Banerjee on the output from sct_deepseg_sc and the final segmentation file was renamed.
+Renaming: sub-HarshmanDobby_T2w_label-SC_seg_initial.nii.gz --> sub-HarshmanDobby_T2w_label-SC_seg.nii.gz
 ```
 
 2. Protocol to get the disc labels (manual labeling)
