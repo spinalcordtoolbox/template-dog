@@ -20,7 +20,7 @@ import nibabel as nib
 
 
 # Open PAM50 spinal cord segmentation
-nii_seg = nib.load("/Users/rohanbanerjee/Downloads/avg014_template_updated/template/templatedog_cord.nii.gz")
+nii_seg = nib.load("<PATH_TO>/templatedog_cord.nii.gz")
 data_seg = nii_seg.get_fdata()
 print(data_seg.shape)
 
